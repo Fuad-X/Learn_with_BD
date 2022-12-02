@@ -1,0 +1,244 @@
+body{
+    margin: 0px;
+    background-color: rgb(241, 241, 241);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+#page{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.leftNavigationBar{
+    float: left;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    padding: 0;
+    color: white;
+    transition: 0.5s;
+}
+
+.leftNavigationBar a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+    font-size: large;
+    width: 90%;
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.leftNavigationBar a.active{
+    background-color: #ff284f;
+    color: white;
+}
+
+.leftNavigationBar a:hover{
+    background-color: #ff284f;
+    color: white;
+}
+
+.navOptionContainer{
+    background-color: white;
+    margin-top: 35px;
+    height: 90%;
+    border-radius: 10px;
+    padding-top: 7%;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.navigationOption{
+    margin-left: 5%;
+    margin-top: 4%;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.navigationOption:last-child{
+    border-bottom: 0px;
+}
+
+.navigationCloseOption{
+    float: right;
+    margin-right: 10%;
+    padding-bottom: 7%;
+}
+
+.catagories {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5%;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.catagory{
+    margin-bottom: 3%;
+    border-bottom: 1px solid rgb(243, 243, 243);
+}
+
+.catagory:last-child{
+    margin-bottom: 0%;
+    border-bottom: 0px;
+}
+
+.catagories a{
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    color: black;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.catagories a:hover{
+    background-color:#ff284f;
+
+    color: white;
+}
+
+.TopNavigationBar
+{
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+
+.navIcon
+{
+    float: left;
+    margin-left: 2%;
+    margin-top: 6px;
+    transition: 0.5s;
+}
+
+.container{
+    width: 100%;
+    float: right;
+}
+
+.images
+{
+    width : 100%;
+    border-radius: 10px;
+}
+
+.player{
+    width: 100%;
+}
+
+.gallary{
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: 5%;
+    padding: 2%;
+    display: grid;
+    grid-gap: 10px; 
+}
+
+.quizContainer{
+    background-color: white;
+    width: 80%;
+    margin-right: 10%;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 10px;
+    float: right;
+}
+
+.optionContainer{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    display: flex;
+}
+
+.quizOptionImage{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.option{
+    width: 25%;
+}
+
+
+.submitButton{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.sub{
+    margin-top: 4%;
+}
+
+.box{
+    margin-right: 15%;
+    width: 70%;
+    background-color: white;
+    padding: 0% 2%;
+    border-radius: 10px;
+    float: right;
+    margin-top: 10%;
+}
+
+.namePlate{
+    background-color: #ff284f;
+    color: white;
+    display: flex;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.name{
+    width: 50%;
+    text-align: center;
+}
+
+.dp{
+    width: 50%;
+    text-align: center;
+    border-left: 1px solid rgb(0, 0, 0);
+}
+
+.profilePicture{
+    border-radius: 100%;
+    width: 30%;
+}
+
+button {
+    background-color: #ff284f;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+  }
